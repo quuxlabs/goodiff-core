@@ -1,0 +1,26 @@
+[General]
+# levels go from 0..2; higher values increase verbosity
+verbosity = 1 
+# enable (1) or disable (0) commits to SVN repositories
+commit = 1
+#commit = 0
+# set to "<hostname/IP>:<port>" to enable proxy support
+http_proxy = 
+# default replacement text for filtered content in documents
+# (e.g., hyperlinks with session parameters in urls)
+default_replace_with = |http://www.goodiff.org/wiki/RemovedByGooDiff|
+# user agent to use for downloading documents from the WWW
+user_agent = Mozilla/5.0 (compatible; GooDiff/2.0; http://www.goodiff.org/wiki/GooDiffMonitor)
+# number of retries for downloading a url
+tries = 5
+# number of redirects to follow for downloading a url
+max_depth = 3
+
+[Archives]
+# no trailing slash
+# Subversion repos URL of the source HTML 
+source = /home/goodiff/goodiffng/archives/source
+# no trailing slash
+# Subversion repos URL of the text version 
+text = /home/goodiff/goodiffng/archives/text
+

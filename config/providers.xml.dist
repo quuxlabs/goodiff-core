@@ -1,0 +1,416 @@
+<providers>
+
+    <provider name="google">
+
+        <service name="google">
+            <document url="http://www.google.com/dmca.html"></document>
+            <document url="http://www.google.com/privacy.html"></document>
+            <document url="http://www.google.com/privacy_faq.html"></document>
+            <document url="http://www.google.com/privacypolicy.html"></document>
+            <document url="http://www.google.com/terms_of_service.html"></document>
+        </service>
+        <service name="google_analytics">
+            <document url="http://www.google.com/analytics/tos.html">
+                <replace pattern="\r\n" with="\n" />
+            </document>
+        </service>
+        <service name="google_apps">
+            <document url="http://www.google.com/a/help/intl/en/users/privacy.html"></document>
+        </service>
+        <service name="google_base">
+            <document url="http://base.google.com/privacy.html"></document>
+            <document url="http://base.google.com/privacy_faq.html"></document>
+            <document url="http://base.google.com/base/tos.html"></document>
+            <document url="http://base.google.com/base/base_policies.html"></document>
+            <document url="http://base.google.com/base/base_payments.html"></document>
+            <document url="http://base.google.com/base/guidelines.html"></document>
+        </service>
+        <service name="google_blogger">
+            <document url="http://www.blogger.com/privacy"></document>
+            <document url="http://www.blogger.com/terms.g"></document>
+        </service>
+        <service name="google_books">
+            <document url="http://books.google.com/privacy.html"></document>
+            <document url="http://books.google.com/terms_of_service.html"></document>
+            <document url="http://books.google.com/dmca.html"></document>
+            <document url="http://books.google.com/webmasters/faq.html"></document>
+            <document url="http://books.google.com/webmasters/guidelines.html"></document>
+            <document url="https://books.google.com/partner/terms"></document>
+            <document url="https://books.google.com/partner/policies"></document>
+        </service>
+        <service name="google_calendar">
+            <document url="http://www.google.com/googlecalendar/program_policies.html"></document>
+            <document url="http://www.google.com/googlecalendar/privacy_info.html"></document>
+            <document url="http://www.google.com/googlecalendar/privacy_policy.html"></document>
+            <document url="http://www.google.com/googlecalendar/terms_of_use.html"></document>
+        </service>
+        <service name="google_desktop">
+            <document url="http://desktop.google.com/en/eula.html"></document>
+            <document url="http://desktop.google.com/eula.html"></document>
+            <document url="http://desktop.google.com/privacypolicy.html"></document>
+            <document url="http://desktop.google.com/copyrights.html"></document>
+        </service>
+        <service name="google_docs_and_spreadsheets">
+            <document url="http://www.google.com/google-d-s/privacy.html"></document>
+            <document url="http://www.google.com/google-d-s/terms.html"></document>
+            <document url="http://www.google.com/google-d-s/legal.html"></document>
+        </service>
+        <service name="google_finance">
+            <document url="http://www.google.com/googlefinance/faq.html"></document>
+            <document url="http://www.google.com/help/stock_disclaimer.html"></document>
+        </service>
+        <service name="google_froogle">
+            <document url="http://froogle.google.com/froogle/intl/en_us/about.html"></document>
+        </service>
+
+        <service name="google_gears">
+            <document url="http://gears.google.com/tos.html"></document>
+            <document url="http://gears.google.com/privacy.html"></document>
+        </service>
+
+        <service name="google_groups">
+            <document url="http://groups.google.com/googlegroups/privacy.html"></document>
+            <document url="http://groups.google.com/privacy.html"></document>
+            <document url="http://groups.google.com/googlegroups/terms_of_service.html"></document>
+            <!-- Google Groups Beta -->
+            <document url="http://groups.google.com/googlegroups/terms_of_service3.html"></document>
+        </service>
+        <service name="google_labs">
+            <document url="http://labs.google.com/labsterms.html"></document>
+        </service>
+        <service name="google_local">
+            <document url="http://google.com/local/help/terms_local.html">
+                <replace pattern="\r\n" with="\n" />
+            </document>
+        </service>
+        <service name="google_mail">
+            <document url="http://gmail.google.com/mail/help/privacy.html"></document>
+            <document url="http://gmail.google.com/mail/help/terms_of_use.html"></document>
+            <document url="http://gmail.google.com/mail/help/program_policies.html"></document>
+            <document url="https://mail.google.com/mail/help/intl/en/more.html"></document>
+        </service>
+        <service name="google_maps">
+            <document url="http://www.google.com/apis/maps/terms.html"></document>
+            <document url="http://maps.google.com/help/privacy_maps.html"></document>
+        </service>
+        <service name="google_orkut">
+            <document url="http://www.orkut.com/privacy.aspx"></document>
+            <document url="http://www.orkut.com/Terms.aspx"></document>
+        </service>
+        <service name="google_pages">
+            <document url="http://pages.google.com/-/privacy.html"></document>
+            <document url="http://pages.google.com/-/terms_of_use.html"></document>
+        </service>
+        <service name="google_permissions">
+            <document url="http://www.google.com/permissions/index.html"></document>
+            <document url="http://www.google.com/permissions/guidelines.html"></document>
+            <document url="http://www.google.com/permissions/brand_terms.html"></document>
+            <document url="http://www.google.com/permissions/guidelines.html"></document>
+        </service>
+        <service name="google_personalized_homepage">
+            <document url="http://www.google.com/help/privacy_fusionph.html"></document>
+        </service>
+        <service name="google_personalized_search">
+            <document url="http://www.google.com/psearch/privacy.html"></document>
+            <document url="http://www.google.com/psearch/privacyfaq.html"></document>
+        </service>
+        <service name="google_picasa">
+            <document url="http://picasa.google.com/support/bin/answer.py?answer=15188&amp;topic=1144"></document>
+            <document url="http://picasa.google.com/help/shopping_policy.html">
+                <replace pattern="\r\n" with="\n" />
+            </document>
+        </service>
+        <service name="google_purchases">
+            <document url="http://purchases.google.com/files/buyerprivacy.html"></document>
+            <document url="https://purchases.google.com/termsOfService?type=Buyer">
+                <replace pattern='&amp;amp;gsessionid=[0-9a-zA-Z_-]{11}' />
+            </document>
+        </service>
+        <service name="google_ridefinder">
+            <document url="http://labs.google.com/ridefinder/terms.html"></document>
+        </service>
+        <service name="google_scholar">
+            <document url="http://scholar.google.com/scholar/publishers.html">
+                <replace pattern="\r\n" with="\n" />
+            </document>
+        </service>
+        <service name="google_search_history">
+            <document url="http://www.google.com/searchhistory/privacy.html"></document>
+            <document url="http://www.google.com/searchhistory/privacyfaq.html"></document>
+        </service>
+        <service name="google_talk">
+            <document url="http://www.google.com/talk/privacy.html"></document>
+            <document url="http://www.google.com/talk/terms.html"></document>
+        </service>
+        <service name="google_toolbar">
+            <document url="http://www.google.com/support/toolbar/?quick=privacy"></document>
+            <document url="http://toolbar.google.com/firefox/extensions/extensions_privacy.html"></document>
+            <document url="http://toolbar.google.com/firefox/extensions/agreement.html"></document>
+            <document url="http://www.google.com/support/firefox/?quick=privacy"></document>
+        </service>
+        <service name="google_video">
+            <document url="http://www.google.com/video_dmca.html"></document>
+            <document url="http://video.google.com/support/bin/answer.py?answer=32170&amp;topic=1490"></document>
+            <document url="http://video.google.com/support/bin/answer.py?answer=27737&amp;topic=1490"></document>
+            <document url="http://video.google.com/support/bin/answer.py?answer=31704"></document>
+            <document url="http://video.google.com/support/bin/answer.py?answer=32185"></document>
+        </service>
+        <service name="google_webaccelerator">
+            <document url="http://webaccelerator.google.com/privacy.html"></document>
+            <document url="http://webaccelerator.google.com/terms.html"></document>
+            <document url="http://webaccelerator.google.com/eula"></document>
+        </service>
+        <service name="joga">
+            <document url="http://www.joga.com/html/en-US/privacy.joga.html"></document>
+            <document url="http://www.joga.com/html/en-US/terms.joga.html"></document>
+        </service>
+        <service name="sketchup">
+            <document url="http://sketchup.google.com/3dwarehouse/en/privacy.html"></document>
+        </service>
+
+    </provider>
+
+    <provider name="yahoo">
+
+        <service name="yahoo">
+            <document url="http://docs.yahoo.com/info/terms/">
+                <replace pattern="https://edit.yahoo.com/config/eval_register?" />
+                <replace pattern="http://us.rd.yahoo.com/reg/login1/" />
+                <replace pattern="http://?us.ard.yahoo.com/" />
+            </document>
+            <document url="http://privacy.yahoo.com/privacy/us/print.html"></document>
+            <document url="http://privacy.yahoo.com/privacy/us/index.html"></document>
+            <document url="http://docs.yahoo.com/info/guidelines/spam.html"></document>
+        </service>
+        <service name="yahoo_myweb2">
+            <document url="http://privacy.yahoo.com/privacy/us/ysearch/index.html"></document>
+            <document url="http://privacy.yahoo.com/privacy/us/ysearch/details.html"></document>
+        </service>
+        <service name="del.icio.us">
+            <document url="http://del.icio.us/help/terms"></document>
+            <document url="http://del.icio.us/help/privacy"></document>
+            <document url="http://del.icio.us/help/copyright"></document>
+        </service>
+        <service name="flickr">
+            <document url="http://www.flickr.com/guidelines.gne"></document>
+            <document url="http://www.flickr.com/help/faq/"></document>
+            <document url="http://www.flickr.com/help/filters/"></document>
+            <document url="http://www.flickr.com/photos_comments.gne"></document>
+            <document url="http://www.flickr.com/terms.gne"></document>
+            <document url="http://www.flickr.com/atos/pro/"></document>
+            <document url="http://info.yahoo.com/legal/us/yahoo/utos/utos-173.html">
+                <replace pattern="http://us.ard.yahoo.com/" />
+            </document>
+            <document url="http://www.flickr.com/help/filters/"></document>
+            <document url="http://docs.yahoo.com/info/copyright/copyright.html"></document>
+        </service>
+
+    </provider>
+
+    <provider name="youtube">
+
+	    <service name="youtube">
+	        <document url="http://www.youtube.com/t/terms"></document>
+            <document url="http://www.youtube.com/t/privacy"></document>
+	    </service>
+
+    </provider>
+
+
+    <provider name="sixapart">
+
+	    <service name="vox">
+	        <document url="http://www.sixapart.com/vox/us/tos/"></document>
+                <document url="http://www.sixapart.com/vox/us/pp/"></document>
+	    </service>
+	    <service name="livejournal">
+	        <document url="http://www.livejournal.com/legal/tos.bml"></document>
+                <document url="http://www.livejournal.com/legal/privacy.bml"></document>
+	    </service>
+
+    </provider>
+
+    <provider name="ebay">
+
+	    <service name="ebay">
+	        <document url="http://pages.ebay.com/help/policies/user-agreement.html"></document>
+                <document url="http://pages.ebay.com/help/policies/privacy-policy.html"></document>
+	    </service>
+	    <service name="skype">
+	        <document url="http://www.skype.com/intl/fr/company/legal/privacy/privacy_general.html"></document>
+
+		<!-- Bloody DOS users... We really need to stop them ! -->
+	        <document url="http://www.skype.com/intl/fr/company/legal/privacy/privacy_ecards.html"></document>
+                <document url="http://www.skype.com/intl/fr/company/legal/terms/tos_web.html"></document>
+		<document url="http://www.skype.com/intl/fr/company/legal/terms/tos_voip.html"></document>
+                <document url="http://www.skype.com/intl/fr/company/legal/eula/index.html"></document>
+                <document url="http://www.skype.com/intl/fr/company/legal/promote/materialterms.html"></document>
+                <document url="http://www.skype.com/intl/fr/company/legal/terms/copyright.html"></document>
+                <document url="http://www.skype.com/intl/fr/company/legal/terms/etiquette.html"></document>
+                <document url="http://www.skype.com/company/legal/terms/tos_ecard.html"></document>
+                <document url="http://www.skype.com/company/legal/terms/api.html"></document>
+                <document url="http://www.skype.com/company/legal/promote/distributionterms.html"></document>
+                <document url="http://www.skype.com/company/legal/privacy/privacy_general.html"></document>
+                <document url="http://www.skype.com/company/legal/privacy/privacy_ecards.html"></document>
+                <document url="http://www.skype.com/company/legal/terms/tos_web.html"></document>
+                <document url="http://www.skype.com/company/legal/terms/tos_voip.html"></document>
+                <document url="http://www.skype.com/company/legal/eula/index.html"></document>
+                <document url="http://www.skype.com/company/legal/terms/copyright.html"></document>
+                <document url="http://www.skype.com/company/legal/terms/etiquette.html"></document>
+                <document url="http://www.skype.com/company/legal/terms/sainsburys-ukash_terms.html"></document>
+
+
+	    </service>
+
+    </provider>
+
+    <provider name="paypal">
+		<service name="paypal">
+			<!-- privacy policies - note the country after the hostname... -->
+
+	                <document url="https://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;country.x=US"></document>
+        	        <document url="https://www.paypal.com/au/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside"></document>
+        	        <document url="https://www.paypal.com/de/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;country.x=AT"></document>
+        	        <document url="https://www.paypal.com/be/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=en_US"></document>
+        	        <document url="https://www.paypal.com/be/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=fr_FR"></document>
+        	        <document url="https://www.paypal.com/be/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=nl_NL"></document>
+        	        <document url="https://www.paypal.com/ca/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;country.x=CA"></document>
+        	        <document url="https://www.paypal.com/uk/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;country.x=GB"></document>
+        	        <document url="https://www.paypal.com/cy/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;country.x=CY"></document>
+        	        <document url="https://www.paypal.com/fr/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside"></document>
+        	        <document url="https://www.paypal.com/de/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;country.x=DE"></document>
+        	        <document url="https://www.paypal.com/it/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside"></document>
+        	        <document url="https://www.paypal.com/nl/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=en_US"></document>
+        	        <document url="https://www.paypal.com/nl/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=nl_NL"></document>
+        	        <document url="https://www.paypal.com/pl/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=en_GB"></document>
+        	        <document url="https://www.paypal.com/pl/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=pl_PL"></document>
+        	        <document url="https://www.paypal.com/es/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside"></document>
+        	        <document url="https://www.paypal.com/ch/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside"></document>
+        	        <document url="https://www.paypal.com/row/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;country.x=HK"></document>
+        	        <document url="https://www.paypal.com/j1/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside&amp;locale.x=ja_JP"></document>
+
+			<!-- user agreement -->
+
+        	        <document url="https://www.paypal.com/au/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/at/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/be/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=en_US"></document>
+        	        <document url="https://www.paypal.com/be/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=fr_FR"></document>
+        	        <document url="https://www.paypal.com/be/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=nl_NL"></document>
+        	        <document url="https://www.paypal.com/ca/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;country.x=CA"></document>
+        	        <document url="https://www.paypal.com/uk/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/cy/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/fr/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/de/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/it/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/nl/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=en_US"></document>
+        	        <document url="https://www.paypal.com/nl/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=nl_NL"></document>
+        	        <document url="https://www.paypal.com/pl/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=en_GB"></document>
+        	        <document url="https://www.paypal.com/pl/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=pl_PL"></document>
+        	        <document url="https://www.paypal.com/es/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/ch/cgi-bin/webscr?cmd=p/gen/ua/ua-outside"></document>
+        	        <document url="https://www.paypal.com/row/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;country.x=HK"></document>
+        	        <document url="https://www.paypal.com/j1/cgi-bin/webscr?cmd=p/gen/ua/ua-outside&amp;locale.x=ja_JP"></document>
+
+			<!-- acceptable use policy (only in US) -->
+		
+        	        <document url="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/use/index_frame-outside"></document>
+
+			<!-- product policies -->
+        	
+		        <document url="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_buyer_credit-outside"></document>
+        	        <document url="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_debit-outside"></document>
+        	        <document url="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_shops-outside"></document>
+        	        <document url="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/ua/PolicyEbayBillingPop-outside"></document>
+        	        <document url="https://www.paypal.com/us/cgi-bin/webscr?cmd=p/gen/ua/policy_bonus-outside"></document>
+        	        <document url="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/ua/PolicyGiftCertificate-outside"></document>
+
+		</service>
+    </provider>
+
+    <provider name="spock">
+		<service name="spock">
+			<document url="http://www.spock.com/terms_of_service">
+                        <replace pattern="&lt;div class=&quot;prompt nobr&quot;&gt;.*?&lt;/div&gt;" />			
+                        <replace pattern="Example:.*?&lt;/div&gt;" />			
+                        <replace pattern="&lt;div id=&quot;tip&quot;&gt;.*?&lt;/div&gt;" />			
+			</document>
+			<document url="http://www.spock.com/privacy">
+                        <replace pattern="&lt;div id=&quot;tip&quot;&gt;.*?&lt;/div&gt;" />			
+                        <replace pattern="Example:.*?&lt;/div&gt;" />			
+			</document>
+		</service>
+    </provider>
+    
+    <provider name="facebook">
+		<service name="facebook">
+	                <document url="http://www.facebook.com/terms.php">
+                        <replace pattern='\?pwstdfy=[0-9a-fA-F]{32}' with="?pwstdfy=|http://www.goodiff.org/wiki/RemovedByGooDiff|" />
+                    </document>
+        	        <document url="http://www.facebook.com/policy.php">
+                        <replace pattern='\?pwstdfy=[0-9a-fA-F]{32}' with="?pwstdfy=|http://www.goodiff.org/wiki/RemovedByGooDiff|" />
+                    </document>
+		</service>
+    </provider>
+
+    <provider name="europoker">
+		<service name="europoker">
+	                <document url="https://www.europoker.net/en/Text/TermsOfService">
+                        <replace pattern="&lt;div class=&quot;currentlyOnlineNumber&quot;&gt;[0-9]*&lt;/div&gt;" />
+                        <replace pattern="&lt;div class=&quot;dateTimeHeader&quot;&gt;.*?&lt;/div&gt;" />
+                    </document>
+	                <document url="https://www.europoker.net/de/Text/TermsOfService">
+                        <replace pattern="&lt;div class=&quot;currentlyOnlineNumber&quot;&gt;[0-9]*&lt;/div&gt;" />
+                        <replace pattern="&lt;div class=&quot;dateTimeHeader&quot;&gt;.*?&lt;/div&gt;" />
+                    </document>
+	                <document url="http://www.europoker.net/en/Text/PrivacyPolicy">
+                        <replace pattern="&lt;div class=&quot;currentlyOnlineNumber&quot;&gt;[0-9]*&lt;/div&gt;" />
+                        <replace pattern="&lt;div class=&quot;dateTimeHeader&quot;&gt;.*?&lt;/div&gt;" />
+                    </document>
+	                <document url="http://www.europoker.net/de/Text/PrivacyPolicy">
+                        <replace pattern="&lt;div class=&quot;currentlyOnlineNumber&quot;&gt;[0-9]*&lt;/div&gt;" />
+                        <replace pattern="&lt;div class=&quot;dateTimeHeader&quot;&gt;.*?&lt;/div&gt;" />
+                    </document>
+		</service>
+    </provider>
+
+    <provider name="apple">
+		<service name="general">
+	                <document url="http://www.apple.com/legal/privacy/"></document>
+	                <document url="http://www.apple.com/legal/terms/site.html"></document>
+	                <document url="http://www.apple.com/legal/trademark/copyright.html"></document>
+		</service>
+		<service name="itunes">
+	                <document url="http://www.apple.com/legal/itunes/us/service.html"></document>
+		</service>
+    </provider>
+
+    <provider name="archive.org">
+		<service name="general">
+	                <document url="http://www.archive.org/about/terms.php"></document>
+		</service>
+    </provider>
+
+    <provider name="studivz">
+		<service name="studivz">
+	                <document url="http://www.studivz.net/l/terms/"></document>
+	                <document url="http://www.studivz.net/l/impressum/"></document>
+	                <document url="http://www.studivz.net/l/rules/"></document>
+	                <document url="http://www.studivz.net/l/policy/declaration/"></document>
+	                <document url="http://www.studivz.net/l/policy/info/"></document>
+		</service>
+    </provider>
+
+    
+<!-- damn, they require cookies for age verification; all urls are redirected to the age verification form -->
+<!--
+    <provider name="pornotube">
+	    <service name="pornotube">
+	        <document url="http://www.pornotube.com/advertise.php"></document>
+	        <document url="http://www.pornotube.com/dmca.php"></document>
+	        <document url="http://www.pornotube.com/privacy.php"></document>
+	        <document url="http://www.pornotube.com/tou.php"></document>
+        </service>
+    </provider>
+-->
+
+</providers>
