@@ -1,0 +1,60 @@
+GooDiff is a consumer-oriented service for keeping track of changes of
+important documents – and indirectly the services described by these documents
+– provided by selected Internet service providers. Our “mission” is to increase
+transparency for end consumers such as you and I.
+
+GooDiff is released under the GNU Affero General Public License (AGPL) version
+3. The GooDiff software is a work-in-progress separated in various modules to
+provide an unique way to track documents on the Internet.
+
+The module is called : goodiff-core
+
+== Description ==
+
+goodiff-core is the software module for fetching, processing and storing the
+retrieved web pages.
+
+The configuration is located in ./config/goodiffmonitor.ini
+and the monitored services are defined in ./config/providers.xml .
+
+Don't forget to create two Subversion repositories :
+
+- One for the HTML source of the web pages fetched and
+- One for the text version of the HTML document.
+ 
+== Requirements ==
+
+* Python >= 2.4
+* BeautifulSoup (http://www.crummy.com/software/BeautifulSoup/)
+* pysvn (http://pysvn.tigris.org/)
+
+== Authors ==
+
+Michael G. Noll - http://www.michael-noll.com/
+Alexandre Dulaunoy - http://www.foo.be/
+
+Software also includes :
+
+=== html2text (http://www.aaronsw.com/2002/html2text/) ===
+
+Aaron Swartz - http://www.aaronsw.com/
+
+
+== License ==
+
+Copyright (C) 2006-2009 Alexandre Dulaunoy - http://www.foo.be/
+Copyright (C) 2006-2009 Michael G. Noll -  http://www.michael-noll.com/ 
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
