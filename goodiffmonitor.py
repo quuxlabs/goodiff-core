@@ -2,10 +2,10 @@
 This module provides the core functionality of the GooDiff monitor application.
 """
 __version__ = "2.1"
-__author__ = "Michael G. Noll (http://www.michael-noll.com/), Alexandre Dulaunoy (http://www.foo.be/)"
-__copyright__ = "(C) 2006-2009 Michael G. Noll, Alexandre Dulaunoy"
+__author__ = "Michael G. Noll (http://www.quuxlabs.com/), Alexandre Dulaunoy (http://www.quuxlabs.com/)"
+__copyright__ = "(C) 2006-2010 Michael G. Noll, Alexandre Dulaunoy"
 __license__ = "AGPL 3.0"
-__email__ = "dev@goodiff.org"
+__email__ = "dev@quuxlabs.com"
 
 import ConfigParser
 import datetime
